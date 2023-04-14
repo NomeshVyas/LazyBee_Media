@@ -9,19 +9,9 @@ import NavBar from './components/NavBar';
 import News from './components/News';
 import LoadingBar from 'react-top-loading-bar'
 import { useState } from 'react';
-
-
-// return (
-//   <div>App</div>
-//   )
-// }
-
-// export default class App extends Component {
-  // import React from 'react'
   
   export default function App() {
     // const ApiKey = progress.env.REACT_NEWS_APP_API ;
-    // const ApiKey = "716276a2ba894a289b15baf06a7520d5"
     const ApiKey = "340eda28ca7845e7a8e9da9320dbdf25"
     const [state, setState] = useState({
       progress: 0,
